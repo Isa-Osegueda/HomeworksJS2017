@@ -1,0 +1,19 @@
+/*------GENERAL-------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+img {
+	
+	transition: opacity 0.3s;
+}
+
+img[data-src] {
+	opacity: 0;
+}
